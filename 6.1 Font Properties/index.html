@@ -3,55 +3,50 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>CSS Properties</title>
+  <title>CSS Box Model</title>
   <style>
-
-    html {
-      font-size: 30px;
+    div {
+      height: 200px;
+      width: 200px;
     }
 
-    body {
-      background-color: cornflowerblue;
-      color: white;
-      font-size: 18px;
+    p {
+      margin: 0;
     }
 
-
-    #color {
-      color: coral;
+    #first {
+      background-color: cadetblue;
+      padding: 20px;
+      border: 10px solid black;
     }
 
-
-    #size {
-      font-size: 2rem;
+    #second {
+      background-color: gold;
+      border: solid black;
+      border-width: 20px 10px;
+      margin-left: 260px;
     }
 
-    #weight {
-      font-weight: 900;
-    }
-
-
-    #family {
-      font-family: 'Caveat', cursive;
-    }
-
-    
-    #align {
-      text-align: right;
+    #third {
+      background-color: indianred;
+      border: 10px solid black;
+      margin-left: 40px;
     }
   </style>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <h1>Important CSS Properties</h1>
-  <p id="color">Color</p>
-  <p id="size">Font Size</p>
-  <p id="weight">Font Weight</p>
-  <p id="family">Font Family</p>
-  <p id="align">Text Align</p>
+  <div id="first">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+      id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+      dolor metus, laoreet ac convallis sit amet, efficitur sed dolor. </p>
+  </div>
+  <div id="second">
+
+  </div>
+  <div id="third">
+
+  </div>
 </body>
 
 </html>
